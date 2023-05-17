@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitCenter"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"/>
+
+    <TextView
+        android:text="Frame Demo"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        />
+
+<!--    Possible values are top, bottom, left, right,
+center, center_vertical, center_horizontal etc.-->
+
+    <!--        android:inputType="textPostalAddress"-->
+</FrameLayout>

@@ -1,0 +1,34 @@
+<GridLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:columnCount="2"
+    android:rowCount="2"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent" >
+
+    <RadioButton
+        android:id= "@+id/but1"
+        android:layout_column= "0"
+        android:layout_row= "0"
+        android:text= "Radio Button 1" />
+
+    <RadioButton
+        android:id= "@+id/but2"
+        android:layout_column= "0"
+        android:layout_row= "1"
+        android:text= "Radio Button 2" />
+
+    <RadioButton
+        android:id= "@+id/but3"
+        android:layout_column= "1"
+        android:layout_row= "0"
+        android:text= "Radio Button 3" />
+
+    <RadioButton
+        android:id= "@+id/but4"
+        android:layout_column= "1"
+        android:layout_row= "1"
+        android:text= "Radio Button 4" />
+
+
+</GridLayout>
